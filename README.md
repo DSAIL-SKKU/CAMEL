@@ -1,3 +1,3 @@
-# camel
+# Anonymous Submission to WACV 2025
 
-# Submission to WACV 2025
+
