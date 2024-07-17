@@ -49,15 +49,15 @@ def ratio_key(target_path, ratio,filename):
     keys = [os.path.splitext(file.split('/')[-1])[0].replace('.npy', '') for file in target_path]
     
 
-    crvo = glob("./2022-OCT-Seg-Data/CRVO/*/*.JPG")
-    csc = glob("./2022-OCT-Seg-Data/CSC/*/*.JPG")
-    dm = glob("./2022-OCT-Seg-Data/DM/*/*.JPG")
-    erm = glob("./2022-OCT-Seg-Data/ERM/*/*.JPG")
-    mh = glob("./2022-OCT-Seg-Data/MH/*/*.JPG")
-    normal = glob("./2022-OCT-Seg-Data/Normal/*/*.JPG")
-    pcv = glob("./2022-OCT-Seg-Data/PCV/*/*.tiff")
-    rap = glob("./2022-OCT-Seg-Data/RAP/*/*.tiff")
-    wetamd = glob("./2022-OCT-Seg-Data/wetAMD/*/*.tiff")
+    crvo = glob("./OCT-Seg-Data/CRVO/*/*.JPG")
+    csc = glob("./OCT-Seg-Data/CSC/*/*.JPG")
+    dm = glob("./OCT-Seg-Data/DM/*/*.JPG")
+    erm = glob("./OCT-Seg-Data/ERM/*/*.JPG")
+    mh = glob("./OCT-Seg-Data/MH/*/*.JPG")
+    normal = glob("./OCT-Seg-Data/Normal/*/*.JPG")
+    pcv = glob("./OCT-Seg-Data/PCV/*/*.tiff")
+    rap = glob("./OCT-Seg-Data/RAP/*/*.tiff")
+    wetamd = glob("./OCT-Seg-Data/wetAMD/*/*.tiff")
 
     crvo = [i.split("/")[-1].split(".JPG")[0] for i in crvo]
     csc = [i.split("/")[-1].split(".JPG")[0] for i in csc]
