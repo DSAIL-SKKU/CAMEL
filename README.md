@@ -7,7 +7,7 @@ This repository provides code for training and testing the proposed model, CAMEL
 ## Code Description
 train.py: Code for training CAMEL
 
-test.ipynb: Code for testing CAMEL
+test.py: Code for testing CAMEL
 
 [utils]
 
