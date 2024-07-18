@@ -9,7 +9,6 @@ train.py: Code for training CAMEL
 
 test.ipynb: Code for testing CAMEL
 
-[utils]
 
 loss.py: Code for loss functions
 
