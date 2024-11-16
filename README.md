@@ -28,7 +28,7 @@ utils.py: util functions, including labeling, preprocessing codes
 
 
 ## Citation
-'''
+```
 @inproceedings{
 jung2025camel,
 title={CAMEL: Confidence-Aware Multi-task Ensemble Learning with Spatial
@@ -38,6 +38,6 @@ booktitle={},
 year={2025},
 url={}
 }
-'''
+```
 
 
