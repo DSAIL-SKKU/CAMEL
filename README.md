@@ -35,16 +35,19 @@ python3 train.py --batch_size 4 --aug 5 --model resnet101 -img_size 320 -erm_wei
 After training, you can use ```test.ipynb``` for performance evaluation and visual inference. Open the notebook and follow the instructions to evaluate the trained model on your dataset.
 
 ## Code Description
-train.py: Code for training CAMEL
 
-test.ipynb: Code for testing CAMEL
+- ```train.py```: Code for training CAMEL
+- ```test.ipynb```: Code for testing CAMEL
 
-[utils]
+### utils
 
-loss.py: Code for loss functions
+- ```loss.py```: Code for loss functions
+- ```utils.py```: util functions, including labeling, preprocessing codes
 
-utils.py: util functions, including labeling, preprocessing codes
+### preprocessing
 
+- ```augmentatio.py```: Code for image augmentation
+- ``ìmage_to_mask.py```: Applies our new OCT image preprocessing method, converting processed annotation images into the .npy format.
 
 ## Citation
 ```
