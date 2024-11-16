@@ -22,7 +22,7 @@ The dataset covers semantic segmentation and object detection tasks.
 - "Masks": pixel-wise annotations with three manual gradings for 1672 images and 2924 masks with single automatic grading
 - "Detection": CSV files for object detection labels
 
-<img width="674" alt="스크린샷 2024-11-17 오전 12 39 52" src="https://github.com/user-attachments/assets/78371572-8dee-41ff-bb5c-17e33127edb6">
+<p align="center"><img width="674" alt="스크린샷 2024-11-17 오전 12 39 52" src="https://github.com/user-attachments/assets/78371572-8dee-41ff-bb5c-17e33127edb6">
 
 
 ## Training 
