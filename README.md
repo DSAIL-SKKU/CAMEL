@@ -7,9 +7,9 @@ This is the official implementation of "CAMEL: Confidence-Aware Multi-task Ensem
 🔥October 2024, Paper accepted at WACV 2025 🎉.
 
 ## Requirements 
-- python 3.10
+- Python 3.10
 - torch 2.1.2
-- tensorflow 2.9.1
+- TensorFlow 2.9.1
 - segmentation-models 1.0.1
 
 
@@ -25,11 +25,14 @@ The dataset covers semantic segmentation and object detection tasks.
 
 
 ## Training 
+To train the network, you can run the following command:
 
+```
+python3 train.py --batch_size 4 --aug 5 --model resnet101 -img_size 320 -erm_weight 0.2 --ece_weight 0.01
+```
 
-
-## Inference 
-
+## Testing on Dataset
+After training, you can use ```test.ipynb``` for performance evaluation and visual inference. Open the notebook and follow the instructions to evaluate the trained model on your dataset.
 
 ## Code Description
 train.py: Code for training CAMEL
