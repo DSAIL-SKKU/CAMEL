@@ -47,7 +47,7 @@ After training, you can use ```test.ipynb``` for performance evaluation and visu
 
 ### preprocessing
 
-- ```augmentatio.py```: Code for image augmentation
+- ```augmentation.py```: Code for image augmentation
 - ```image_to_mask.py```: Applies our new OCT image preprocessing method, converting processed annotation images into the .npy format.
 
 ## Citation
