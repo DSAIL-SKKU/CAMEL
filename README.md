@@ -19,7 +19,7 @@ For training and testing the models, you can use the public dataset [OCT5K](http
 The dataset covers semantic segmentation and object detection tasks.
 
 - "Images": Original OCT Images
-- "Masks": pixel-wise annotations with three manual gradings for 1672 images and 2924 masks with single automatic grading
+- "Masks": pixel-wise annotations with three manual gradings for 1,672 images and 2,924 masks with single automatic grading
 - "Detection": CSV files for object detection labels
 
 <p align="center"><img width="674" alt="스크린샷 2024-11-17 오전 12 39 52" src="https://github.com/user-attachments/assets/78371572-8dee-41ff-bb5c-17e33127edb6">
